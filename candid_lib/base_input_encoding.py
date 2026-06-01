@@ -1,0 +1,16 @@
+﻿#  FlowTransformer 2023 by liamdm / liam@riftcs.com
+from typing import List
+
+from candid_lib.enumerations import CategoricalFormat
+from candid_lib.framework_component import FunctionalComponent
+
+
+class BaseInputEncoding(FunctionalComponent):
+    def apply(self, X:List["keras.Input"], prefix: str = None):
+        raise NotImplementedError("Please override this with a custom implementation")
+
+    @property
+    def required_input_format(self) -> CategoricalFormat:
+        raise NotImplementedError("Please override this with a custom implementation")
+
+
