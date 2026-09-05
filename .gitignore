@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+saved_task_models*/
+eval_feature_visualizations*/
+*.keras
+*.h5
+*.csv
+*.parquet
+*.pkl
+*.pickle
