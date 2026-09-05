@@ -306,7 +306,7 @@ class FlowTransformer:
                           benign_class_idx: int = 0,
                           lr: float = 0.0001,
                           distill_lambda: float = 10.0,  # <--- 濠电儑绲藉ù鍌炲窗濡ゅ懎鏋佸┑鍌氭啞閸婇? 濠殿喗甯楃粙鎺椻€﹂崼銉晣濠电姵鑹剧壕褰掓煕韫囨挸鎮戦柡鍡╁幖?
-                          supcon_lambda: float = 0.1,
+                          supcon_lambda: float = 0.2,
                           temperature: float = 0.07,
                           old_class_ids: List[int] = None,  # <--- 濠电儑绲藉ù鍌炲窗濡ゅ懎鏋佸┑鍌氭啞閸婇? 闂備礁鎼崐鐟邦熆濮椻偓璺柛鎰靛枛閻鏌涚仦鍓р姇?
                           **kwargs) -> keras.Model:

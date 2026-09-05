@@ -1,9 +1,10 @@
-numpy
-pandas
-tensorflow
-keras
-scikit-learn
-matplotlib
+# Python 3.8 + TensorFlow 2.15 (matches the experimental environment of the paper)
+tensorflow==2.15.*
+keras==2.15.*
+numpy<2.0
+pandas>=1.5,<2.2
+scikit-learn>=1.0
 tabulate
 tqdm
+matplotlib
 umap-learn
